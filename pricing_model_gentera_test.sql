@@ -1,8 +1,9 @@
+
 create database IF NOT EXISTS gentera_data;
 
 use gentera_data;
 
-drop table if exists gentera_data;
+drop table if exists model_validation;
 
 create table if NOT EXISTS model_validation (
 
